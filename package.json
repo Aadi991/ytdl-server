@@ -1,0 +1,33 @@
+{
+  "name": "ytdl-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bytes": "^3.1.2",
+    "content-type": "^1.0.5",
+    "cors": "^2.8.5",
+    "depd": "^2.0.0",
+    "destroy": "^1.2.0",
+    "ee-first": "^1.1.1",
+    "encodeurl": "^1.0.2",
+    "escape-html": "^1.0.3",
+    "etag": "^1.8.1",
+    "express": "^4.18.2",
+    "forwarded": "^0.2.0",
+    "fresh": "^0.5.2",
+    "function-bind": "^1.1.1",
+    "get-intrinsic": "^1.2.0",
+    "has": "^1.0.3",
+    "has-symbols": "^1.0.3",
+    "ytdl-core": "^4.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"},
+  "scripts": {
+    "start": "nodemon ./server.js localhost 4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
